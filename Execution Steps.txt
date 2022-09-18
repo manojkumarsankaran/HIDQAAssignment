@@ -1,0 +1,25 @@
+Steps to execute Automation:
+
+To run in wweb browser:
+
+1. Open Eclipse
+2. Import the project into the eclipse workspace
+3. Open feature file (automation.feature)
+4. Right click and run as 'Cucumber Feature'
+5. It will execute all the 6 scenarios
+
+To run via Maven command:
+
+1. Install maven into your system
+2. Open cmd as admin
+3. move to project folder
+4. run 'mvn test verify'
+
+To view the cucumber html report:
+
+1. Go to eclipse
+2. Expand the 'cucumber-html-reports'
+3. Right click 'overview-features.html'
+4. click properties
+5. copy the html report path 
+6. Open it in chrome
